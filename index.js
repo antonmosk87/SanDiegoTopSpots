@@ -4,7 +4,6 @@ $(document).ready(function () {
         var tr;
         for (var i = 0; i < data.length; i++) {
             tr = $('<tr/>');
-            var links = data
             tr.append("<td>" + data[i].name + "</td>");
             tr.append("<td>" + data[i].description + "</td>");
             tr.append("<td>" + '<a href="https://www.google.com/maps/place/' + data[i].location + '">' + data[i].location + '</a>'+ "</td>");
